@@ -111,7 +111,7 @@ module OmniAuth
       
       def _add_data(d, key, val)
         val = Array(val).first
-        return if val.nil? || v == ''
+        return if val.nil? || val == ''
         
         d[key] = val
       end
